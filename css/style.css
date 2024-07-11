@@ -105,7 +105,7 @@
 }
 
 .time {
-    padding: 50px;
+    padding: 30px;
     border: 1px solid #FFF;
     font-weight: 500;
     font-size: 30px;
@@ -200,4 +200,23 @@
 #chars {
     font-size: 20px;
     color: #D62E33;
+}
+/*====================================================================*/
+
+@media screen and (max-width :768px) {
+    #counter {
+        height: 526.4px;
+    }
+
+    .container{
+        padding: 50px ;
+    }
+
+    #slider.text-center.mx-auto{
+        width: 90% !important;
+    }
+
+    .social-list{
+        padding-bottom: 30px;
+    }
 }
